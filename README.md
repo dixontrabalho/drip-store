@@ -1,16 +1,58 @@
-# React + Vite
+# Drip-Store
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Link do deploy: https://drip-store-project.vercel.app/
 
-Currently, two official plugins are available:
+Uma Loja online desenvolvida com React, React Router e TailwindCSS. O projeto tem funcionalidades completas de navegação, pesquisa, visualização de produtos, filtros, carrosséis promocionais e carrinho de compras.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Funcionalidades
 
-## React Compiler
+- Página inicial com carrossel de promoções automáticas
+- Destaques de produtos com selo de desconto
+- Página de listagem com filtros por categoria, gênero, marca e estado
+- Filtro funcional por categoria (ex: “Tênis”)
+- Página de visualização detalhada do produto com imagens, tamanhos e cores
+- 🛒 Carrinho de compras com persistência via localStorage
+- ➕ Botões de “Adicionar ao carrinho” e “Ver mais” por produto
+- Layout totalmente responsivo baseado em design Figma
+- Imagens reais de produtos(Fornecidos pela orientadora Nazaré)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tecnologias Utilizadas
 
-## Expanding the ESLint configuration
+- React (com Vite)
+- React Router DOM
+- TailwindCSS
+- Context API
+- JavaScript
+- localStorage para manter os itens do carrinho
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Como inicializar o projeto
+
+### Instalação
+
+Clone o repositório e instale as dependências:
+
+```bash```
+`npm install`
+
+## Desenvolvimento
+
+Inicie o servidor de desenvolvimento:
+
+```bash```
+`npm run dev`
+
+Abra <http://localhost:5173> no navegador para visualizar a aplicação.
+
+## ambientes suportados 
+
+Vercel
+
+GitHub Pages (com adaptações)
+
+🎨**Estilização:**
+
+Este projeto utiliza TailwindCSS para estilização rápida, responsiva e moderna. Todos os componentes são mobile-first e adaptam-se dinamicamente ao tamanho da tela.
+
+Feito com  usando React + Tailwind por *Dixon Brito de Sá com a Orientação de Nazaré*
+## Agradecimentos
+Muito obrigado Nazaré !!! por toda a sua ajuda e paci?ência!
